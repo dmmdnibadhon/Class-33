@@ -1,0 +1,324 @@
+/* CSS variables part start */
+:root {
+    --font_poppins: 'Poppins', sans-serif;
+    --font_nunito_sans: 'Nunito Sans', sans-serif;
+    --dark_green_color: #007F5F;
+    --white_color: #FFFFFF;
+    --orange_color: #FF8B00;
+    --all_heading_black_color: #292929;
+    --all_paragraph_black_color: #6A6A6A;
+
+}
+
+/* CSS variables part end */
+/* Common CSS part start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p,
+a,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+.all_common_heading{
+    width: 692px;
+    margin: 0 auto;
+    text-align: center;
+}
+.all_common_heading h2{
+    color: var(--all_heading_black_color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    /* width: 692px;
+    margin: 0 auto; */
+    /* text-align: center; */
+    font-family: var(--font-family)
+}
+.all_common_heading p{
+    color: var(--all_paragraph_black_color);
+    width: 692px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: var(--font-family)
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Common CSS part end */
+/* Navbar part start */
+.nav_items{
+    padding: 40px 0;
+}
+.nav_items ul{
+    gap: 30px;
+}
+.nav_items ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_poppins);
+}
+.nav_btn a{
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    background: var(--dark_green_color);
+    padding: 16px 35px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+.nav_btn a:hover{
+    text-decoration: none;
+}
+/* Navbar part end */
+/* Banner part start */
+#banner{
+    background: url(../images/banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.4);
+}
+.banner_info{
+    width: 573px;
+}
+.banner_info h1{
+    color: var(--white_color);
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    padding: 148px 0 30px 0;
+}
+.banner_info p{
+    color: var(--white_color);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: var(--font_poppins);
+}
+.banner_info .banner_btn a{
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    background: var(--dark_green_color);
+    padding: 16px 35px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    margin: 40px 0 60px 0;
+}
+.banner_location{
+    background: var(--white_color);
+    padding: 35px 23px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 122px;
+}
+.banner_location .location_items{
+    gap: 70px;
+}
+.banner_location .location_items h3{
+    
+}
+.banner_location .location_items span{
+    color: var(--all_heading_black_color);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font_nunito_sans);
+    margin: 0 20px 0 11px;
+    
+}
+.banner_location .location_items i.agreenb{
+    color: var(--dark_green_color);
+}
+.banner_location .location_items input{
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 32px;
+}
+.banner_location .location_btn a{
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    background: var(--dark_green_color);
+    padding: 30px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+/* Banner part end */
+/* Travel part start */
+#travel{
+    padding: 160px 0;
+}
+.travel_items{
+    width: 299px;
+    padding: 63px 61px;
+    /* display: flex; */
+    border: 1px solid black;
+    border-radius: 14px;
+    /*width: fit-content;
+    */:;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.travel_items .icon{
+    background: rgba(0, 127, 95, 0.1);
+    padding: 18px 22px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    width: fit-content;
+}
+.trave_items h3{
+    color: var(--all_heading_black_color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--font_poppins);
+}
+.trave_items p{
+    color: var(--all_paragraph_black_color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font_poppins);
+}
+/* Travel part end */
+/* Counter part start */
+#counter{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 150px 0;
+}
+.counter_text{
+    /* width: 516px; */
+}
+.counter_text h2{
+    color: var(--all_heading_black_color);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+}
+.counter_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_poppins);
+    line-height: 30px;
+    padding: 20px 0 10px 0;
+}
+.counter_text ul{
+    
+}
+.counter_text ul li{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.counter_text ul li span i{
+    color: var(--dark_green_color);
+    margin-bottom: 10px;
+}
+.counter_text ul li p{
+    color: var(--all_paragraph_black_color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_poppins);
+    /* padding: 5px 0; */
+}
+.counter_text .counter_btn a{
+    color: var(--white_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font_poppins);
+    background: var(--dark_green_color);
+    padding: 16px 35px;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.counter_text .counter_btn a:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    text-decoration: none;
+}
+.counter_count{
+    padding: 62px 32px;
+    background: var(--white_color);
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+.counter_count .counter_icon{
+    padding: 22px 20px;
+    background: rgba(0, 127, 95, 0.4);
+    width: fit-content;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.counter_count .counter_icon span i{
+    font-size: 30px;
+}
+.counter_count .counter_icon{}
+/* Counter part end */
